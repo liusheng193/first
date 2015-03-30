@@ -6,7 +6,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("first!");asdf
+	printf("first!");
 	return 0;
 }
 
