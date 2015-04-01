@@ -19,7 +19,7 @@ TEST(FooTest, HandleNoneZeroInput)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	testing::GTEST_FLAG(output) = "xml:";
+	testing::GTEST_FLAG(output) = "xml:gtest.xml";
 	testing::InitGoogleTest(&argc, argv);
 	printf("first!");
 	 return RUN_ALL_TESTS();
