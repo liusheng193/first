@@ -1,4 +1,7 @@
 #include "new.h"
+#include <stdio.h>
+#include <tchar.h>
+#include <stdlib.h>
 
 int Func(int a, int b)
 {
@@ -10,6 +13,7 @@ int Func(int a, int b)
    new int[100];
 	
     int c = a % b;
+	int *p= (int *)malloc(100);
     if (c == 0)
         return b;
     return Func(b, c);
