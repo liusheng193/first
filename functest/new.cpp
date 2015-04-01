@@ -10,7 +10,7 @@ int Func(int a, int b)
         throw "don't do that";
     }
 
-   new int[100];
+  int *p1=  new int[100];
 	
     int c = a % b;
 	int *p= (int *)malloc(100);
