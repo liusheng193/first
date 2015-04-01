@@ -6,6 +6,9 @@ int Func(int a, int b)
     {
         throw "don't do that";
     }
+
+   new int[100];
+	
     int c = a % b;
     if (c == 0)
         return b;
