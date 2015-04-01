@@ -12,3 +12,10 @@ int Func(int a, int b)
     return Func(b, c);
 	//return 0;
 }
+void MyClass::add()
+{
+	int a=0;
+	int b=3;
+	int c=a+b;
+
+}
