@@ -13,7 +13,7 @@ int Func(int a, int b)
   int *p1=  new int[100];
 	
     int c = a % b;
-	(int *)malloc(100);
+	int *p= (int *)malloc(100);
     if (c == 0)
         return b;
     return Func(b, c);
