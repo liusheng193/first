@@ -5,7 +5,19 @@
 
 int Func(int a, int b)
 {
-  return 0;
+   if (a == 0 || b == 0)
+    {
+        throw "don't do that";
+    }
+
+  int *p1=  new int[100];
+	
+    int c = a % b;
+	int *p= (int *)malloc(100);
+    if (c == 0)
+        return b;
+    return Func(b, c);
+	//return 0;
 }
 void MyClass::add()
 {
