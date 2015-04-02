@@ -63,7 +63,8 @@
       <AdditionalDependencies>D:\jenkins\gtest-1.6.0\msvc\gtest\Debug\gtestd.lib;$(SolutionDir)\Debug\functest.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>$(TargetDir)$(TargetFileName)</Command>
+      <Command>
+      </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
